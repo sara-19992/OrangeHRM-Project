@@ -1,0 +1,9 @@
+{
+    "description": "an accountant",
+    "employeeId": 2,
+    "isPublished": true,
+    "jobTitleId": 2,
+    "name": "Account Assetent",
+    "numOfPositions": 5,
+    "status": true
+}

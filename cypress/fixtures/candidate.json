@@ -1,0 +1,13 @@
+{
+    "comment": null,
+    "consentToKeepData": false,
+    "contactNumber": "0599",
+    "dateOfApplication": "2023-10-14",
+    "email": "sarah@gmail.com",
+    "firstName": "sarah",
+    "keywords": null,
+    "lastName": "sarah",
+    "middleName": "sarah",
+    "vacancyId": 6,
+    "resume": "cypress/fixtures/candidateResume.pdf"
+}

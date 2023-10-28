@@ -1,0 +1,47 @@
+[
+    {
+        "userName": "Admin",
+        "password": "admin123",
+        "dashboard_main_menu_item": "Dashboard"
+    },
+    {
+        "userName": "adminn",
+        "password": "admin123",
+        "elertMsg": "Invalid credentials"
+    },
+    {
+        "userName": "Admin",
+        "password": "admin1234",
+        "elertMsg": "Invalid credentials"
+    },
+    {
+        "userName": "admin",
+        "password": "admin1234",
+        "elertMsg": "Invalid credentials"
+    },
+    {
+        "userName": "admin",
+        "password": "admin123",
+        "dashboard_main_menu_item": "Dashboard"
+    },
+    {
+        "userName": "",
+        "password": "",
+        "elertMsg": "Required"
+    },
+    {
+        "userName": "Admin",
+        "password": "",
+        "elertMsg": "Required"
+    },
+    {
+        "userName": "",
+        "password": "admin123",
+        "elertMsg": "Required"
+    },
+    {
+        "userName": "admin",
+        "password": "admin123",
+        "elertMsg": "Invalid credentials"
+    }
+]

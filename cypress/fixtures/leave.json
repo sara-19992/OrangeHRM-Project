@@ -1,0 +1,9 @@
+{
+    "comment": null,
+    "duration": {
+        "type": "full_day"
+    },
+    "fromDate": "2023-10-31",
+    "leaveTypeId": 8,
+    "toDate": "2023-10-31"
+}
