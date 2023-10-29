@@ -7,7 +7,8 @@ export default class vacancyPage {
         addBut: () => cy.get('button[type="button"]'),
         fileInputField: () => cy.get('input[type="file"]'),
         saveButs: () => cy.get('button[type="submit"]'),
-        attachmentRows: () => cy.get('.oxd-table-card')
+        attachmentRows: () => cy.get('.oxd-table-card'),
+        downlodeIconFile: () => cy.get('.bi-download')
     }
 
     addVacancyAPI(desc: string, empID: number, isPub: boolean, jobTit: string, name: string, numOfPosition: number, status: boolean) {
@@ -35,6 +36,8 @@ export default class vacancyPage {
         this.elements.attachmentRows().should('have.length', 1)
         this.elements.attachmentRows().contains(filePath.split("/")[2])
         cy.log('**File uploaded Successfully For Vacancy**')
+        this.elements.downlodeIconFile().click()
+
     }
 
     deleteVacancyAPI(id: number) {
